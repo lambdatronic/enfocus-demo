@@ -8,4 +8,4 @@
                      {:main
                       {:source-paths ["src/cljs"]
                        :compiler     {:output-to     "resources/js/script.js"
-                                      :optimizations :advanced}}}})
+                                      :optimizations :whitespace}}}})
