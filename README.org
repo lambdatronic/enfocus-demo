@@ -6,16 +6,16 @@
    *resources/js/script.js* in Emacs and run *M-x impatient mode* in
    each buffer.
 
-3. Point your web browser at http://localhost:8080/imp/ to see the
-   live buffer list. Select index.html.
+3. Point your web browser at *http://localhost:8080/imp/* to see the
+   live buffer list. Select *index.html*.
 
 4. Run *lein cljsbuild auto* at your terminal to recompile
    *resources/js/script.js* from *src/cljs/enfocus_demo/core.cljs*.
 
-5. You may now edit index.html and styles.css freely and see the
+5. You may now edit *index.html* and *styles.css* freely and see the
    immediate updates in your web browser. Every time you save
-   core.cljs, it will be recompiled to Javascript and the changes will
-   then appear in your browser.
+   *core.cljs*, it will be recompiled to Javascript and the changes
+   will then appear in your browser.
 
 Happy hacking!
   ~Gary
