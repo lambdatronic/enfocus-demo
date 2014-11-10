@@ -5,7 +5,10 @@
   (:require-macros [enfocus.macros :as em]))
 
 (em/defaction change [msg]
-  "#button1" (ef/content msg))
+  "#button1" (eff/chain
+              (eff/fade-out 500)
+              (ef/content msg)
+              (eff/fade-in 500)))
 
 (em/defaction resize-div [width]
   "#rz-demo" (eff/chain
